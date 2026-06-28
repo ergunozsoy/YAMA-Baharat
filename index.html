@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baharat Atlası · Spice Me · Gewürz Mich</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand">Baharat Atlası</div>
+      <div class="nav-links">
+        <a href="#bulut">Dolanıklık</a><a href="#spices">Baharatlar</a><a href="#route">Baharat Yolu</a><a href="#body">Beden</a>
+      </div>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Spice Me · Gewürz Mich · Bana Baharat</p>
+        <h1>Baharatları kokudan tarihe, kelimeden hücreye kadar anlamak.</h1>
+        <p class="lead">Köken, etimoloji, ticaret yolları, deyimler, mikro biyoloji ve vücuttaki biyokimyasal yolculuk için görsel bir baharat ansiklopedisi.</p>
+        <div class="actions"><a class="btn" href="#spices">Keşfet</a><a class="btn ghost" href="#concept">Konsept</a></div>
+      </div>
+      <div class="hero-card">
+        <div class="orb">✺</div>
+        <h2>İlk sürüm fikri</h2>
+        <p>En çok kullanılan 12 baharatla başlar; zamanla bölge, dönem, koku ailesi, etken madde ve mutfak ilişkileri eklenir.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="concept" class="section two">
+      <div>
+        <p class="eyebrow">Ana fikir</p>
+        <h2>Baharat sadece tat değildir.</h2>
+        <p>Bir baharat; bitkinin bir parçası, bir ticaret nesnesi, bir kelime, bir imparatorluk hikâyesi, bir mikrobiyolojik risk alanı ve bedende çözülüp hücrelere kadar giden moleküler bir yolculuktur.</p>
+      </div>
+      <div class="quote-box">
+        <p>“Küçük bir tohum, bazen büyük bir haritadan daha fazla tarih taşır.”</p>
+      </div>
+    </section>
+
+    <section id="bulut" class="section">
+      <p class="eyebrow">Baharat dolanıklığı</p>
+      <h2>Bulut haritası: akrabalık, rota, koku, etki</h2>
+      <div class="cloud-wrap">
+        <svg id="spiceCloud" viewBox="0 0 900 520" role="img" aria-label="Baharat dolanıklık haritası"></svg>
+      </div>
+      <p class="hint">Düğümler baharatları; çizgiler ortak koku ailesi, tarihî rota veya kimyasal benzerlik ilişkisini gösterir.</p>
+    </section>
+
+    <section id="spices" class="section">
+      <p class="eyebrow">Kartlar</p>
+      <h2>En çok kullanılanlardan az bilinenlere</h2>
+      <div class="filters">
+        <button data-filter="all" class="active">Hepsi</button>
+        <button data-filter="seed">Tohum</button>
+        <button data-filter="bark">Kabuk</button>
+        <button data-filter="root">Kök/Rizom</button>
+        <button data-filter="fruit">Meyve</button>
+        <button data-filter="flower">Çiçek</button>
+      </div>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <section id="route" class="section route">
+      <p class="eyebrow">Baharat yolu</p>
+      <h2>Hint Okyanusu’ndan Akdeniz’e</h2>
+      <div class="route-line">
+        <div><b>Güney / Güneydoğu Asya</b><span>karabiber, tarçın, karanfil, muskat</span></div>
+        <div><b>Hint Okyanusu</b><span>muson rüzgârları, liman ağları</span></div>
+        <div><b>Arabistan & Levant</b><span>aracılar, pazarlar, karışımlar</span></div>
+        <div><b>Akdeniz & Avrupa</b><span>lüks, tıp, mutfak, diplomasi</span></div>
+      </div>
+    </section>
+
+    <section id="body" class="section two">
+      <div>
+        <p class="eyebrow">Biyokimyasal yolculuk</p>
+        <h2>Ağızdan mikrobiyotaya kadar</h2>
+        <ol class="steps">
+          <li><b>Ağız:</b> uçucu yağlar koku reseptörleriyle algılanır; acı ve yakıcı bileşikler trigeminal sistemi uyarabilir.</li>
+          <li><b>Mide:</b> baharat matrisi çözülür; yağda çözünen moleküller yemekle birlikte taşınır.</li>
+          <li><b>Bağırsak:</b> polifenoller ve lif benzeri bileşenler mikrobiyota ile karşılaşır.</li>
+          <li><b>Karaciğer:</b> bazı bileşikler metabolize edilir; etki kişiye, doza ve yemeğe göre değişir.</li>
+          <li><b>Güvenlik:</b> baharatlar kuru olsa da Salmonella, Bacillus cereus gibi riskler taşıyabilir; hijyen ve güvenilir kaynak önemlidir.</li>
+        </ol>
+      </div>
+      <div class="lab-card">
+        <h3>Mikro-biyoloji köşesi</h3>
+        <p>Her baharat kartına ileride “olası mikrobiyal risk”, “saklama”, “ısı işlemi”, “nem”, “küf ve kontaminasyon” alanları eklenebilir.</p>
+      </div>
+    </section>
+
+    <section class="section sources">
+      <p class="eyebrow">Kaynak notu</p>
+      <h2>Bu prototip nasıl genişler?</h2>
+      <p>Her kart için akademik kaynak, tarihî kaynak, etimoloji kaynağı, mutfak örneği ve güvenlik notu ayrı ayrı bağlanacak. Bu sürüm, tasarım ve bilgi mimarisi prototipidir.</p>
+    </section>
+  </main>
+
+  <footer>Hazırlayan: Ergün Özsoy · GitHub Pages uyumlu statik prototip</footer>
+  <script src="script.js"></script>
+</body>
+</html>
